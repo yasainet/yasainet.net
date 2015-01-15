@@ -1,0 +1,174 @@
+* index.php
+- title
+
+- article-title
+  - article-meta
+- article-title
+  - article-meta
+- article-title
+  - article-meta
+- article-title
+  - article-meta
+- article-title
+  - article-meta
+
+- about
+
+* loop.php
+
+* single.php
+- title
+
+- article-title
+  -article-meta
+
+  -article-content
+
+- about
+
+***
+
+* index.php
+
+<body>
+  <div class="row">
+    <div class="col-md-12">
+      <header id="header">
+        <h1>title</h1>
+      </header>
+      <div id="content">
+      <!-- /header.php -->
+
+      <div class="article-header">
+        <div class="article-title">
+          <h1>article-title</h1>
+        </div>
+        <p class="article-meta">
+          2014/05/27 cat:blog tag:WordPress, blog
+        </p>
+      </div><!-- /.article-header -->
+
+      </div><!-- content -->
+      <footer id="footer">
+        <small>&copy; yasainet.net</small>
+      </footer>
+    </div><!-- ./col-md-12 -->
+  </div><!-- /.row -->
+</body>
+
+
+* single.php
+
+<body>
+  <div class="row">
+    <div class="col-md-12">
+      <header id="header">
+        <h1>title</h1>
+      </header>
+      <!-- /header.php -->
+
+      <!-- single.php -->
+      <div class="article-header">
+        <div class="article-title">
+          <h1>article-title</h1>
+        </div>
+        <p class="article-meta">
+          2014/05/27 cat:blog tag:WordPress, blog
+        </p>
+      </div><!-- /.article-header -->
+
+      <article id="article">
+        <section>
+          <h2>hogehoge</h2>
+            <h3>hugahuga</h3>
+              <p>piyopiyo</p>
+        </section>
+      </article>
+      <!-- /single.php -->
+
+      <footer id="footer">
+        <small>&copy; yasainet.net</small>
+      </footer>
+    </div><!-- ./col-md-12 -->
+  </div><!-- /.row -->
+</body>
+
+
+
+
+
+http://www.whatwg.org/specs/web-apps/current-work/#the-meta-element
+
+Contexts in which this element can be used:
+If the charset attribute is present, or if the element's http-equiv attribute is in the Encoding declaration state: in a head element.
+If the http-equiv attribute is present but not in the Encoding declaration state: in a head element.
+If the http-equiv attribute is present but not in the Encoding declaration state: in a noscript element that is a child of a head element.
+
+
+****************************************
+
+* index.php
+
+<body>
+  <div id="content">
+  <header id="header">
+    <h1>title</h1>
+  </header>
+  <!-- /header.php -->
+
+  <div class="article-header">
+    <div class="article-title">
+      <h1>article-title</h1>
+    </div>
+    <p class="article-meta">
+      2014/05/27 cat:blog tag:WordPress, blog
+    </p>
+  </div><!-- /.article-header -->
+
+  </div><!-- content -->
+  <footer id="footer">
+    <small>&copy; yasainet.net</small>
+  </footer>
+</body>
+
+
+* single.php
+
+<body>
+  <header id="header">
+    <h1>title</h1>
+  </header>
+  <!-- /header.php -->
+
+  <!-- single.php -->
+  <div class="article-header">
+    <div class="article-title">
+      <h1>article-title</h1>
+    </div>
+    <p class="article-meta">
+      2014/05/27 cat:blog tag:WordPress, blog
+    </p>
+  </div><!-- /.article-header -->
+
+  <article id="article">
+    <section>
+      <h2>hogehoge</h2>
+        <h3>hugahuga</h3>
+          <p>piyopiyo</p>
+    </section>
+  </article>
+  <!-- /single.php -->
+
+  <footer id="footer">
+    <small>&copy; yasainet.net</small>
+  </footer>
+</body>
+
+
+
+h1 24px
+h2 20px
+h3 18px
+
+p 16px
+
